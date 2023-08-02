@@ -60,6 +60,7 @@ function newCard() {
         let card = getRandomCard()
         sum += card
         cards.push(card)
-        renderGame()        
+        renderGame()
     }
 }
+

@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color:#2f4b4c;
+    font-size: 18px;
+}
+
+#container {
+    background-color: #dfdade;
+    margin: 100px auto;
+    width: 400px;
+    height: 480px;
+    border-radius: 10px;
+    padding-top: 20px;
+    border: 5px solid #192b2b;
+}
+
+#container h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #2f4b4c;
+}
+#buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#start-game, #new-game, #new-card {
+    margin: 10px auto;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #2f4b4c;
+    background-color: #f0c1bc;
+    border: 2px solid #2f4b4c;
+}
